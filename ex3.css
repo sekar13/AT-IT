@@ -1,0 +1,67 @@
+/* .square{
+    width: 200px;
+    height:200px;
+    background-color: aqua;
+    transition-duration: 5s;
+ /* transition-delay: 2s; */
+    /* transition-timing-function:ease-in; */
+    /* transition-timing-function:ease-out; 
+    /* transition-timing-function:ease-in-out; */
+    /* transition-timing-function:cubic-bezier(0.93,-0.15, 0, 0.86); 
+    transition-property: background-color; }*/
+ 
+/* .square:hover{
+    background-color: brown;
+    /* transform: rotate(90deg); */
+    /* transform: rotateY(40deg);
+    transform: scale(2);
+    transform: scaley(2);
+    transform: translate(20px); }*/
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin:1em;
+    background-color: brown;
+    animation-name: circle;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    animation-iteration-count: 4;
+
+    
+}
+@keyframes circle{
+    25%{
+        animation-delay: 10s;
+        width: 200px;
+        height:200px;
+        background-color: blue;
+        top: 300px;
+        left: 100px;
+
+        
+
+    }
+    50%{
+        animation-delay: 10s;
+        width: 300px;
+        height:300px;
+        background-color: burlywood;
+        top: 600px;
+        left: 300px;
+
+    }
+    75%{
+        width: 400px;
+        height:400px;
+        background-color: bisque;
+
+    }
+    100%{
+        width: 500px;
+        height:500px;
+        background-color: blueviolet;
+    }
+}
