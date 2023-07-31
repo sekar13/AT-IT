@@ -1,0 +1,64 @@
+
+body{
+    
+    width:500px;
+    background:linear-gradient(lightblue,rgb(140, 140, 48));
+    color: blue;
+    margin: 250px auto;
+    box-shadow: black 2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background;
+}
+h3{
+    text-align: center;
+    padding-top:1em;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: expanded;
+    
+    
+}
+
+.form{
+    background-color: azure;
+    
+}
+.input1 input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    padding: 1em;
+    width: 300px;
+    color: blue;
+    display: block;
+    padding-bottom:.3em;
+   
+
+}
+.input1{
+    padding: 1em;
+}
+
+.radio{
+    display: inline;
+}
+.dob{
+    padding:1em;
+}
+button:hover{
+    color: green;
+}
+input:focus{
+    background-color:lightblue;
+}
+.sumbit{
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 1em;
+    box-shadow: 2em black inset;
+}
+label{
+    padding-top:1;
+}
+
+
