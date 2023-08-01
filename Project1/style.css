@@ -1,0 +1,70 @@
+:root{
+    --brown:#f5fc1b;
+    --lightbown:#d111c5;
+    --lavander:#A78295;
+    --skintone:#EFE1D1;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.landingpage{
+    background-image: url('../Project1/Img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #00ff08;
+}
+header a{
+    text-decoration: none;
+    color:var(--brown);
+}
+header{
+    display: flex;
+    padding:1em ;
+
+}
+#logo{
+    flex:3;
+    font-size: 1.25rem;
+}
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: var(--skintone);
+}
+.mainarea{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding:2em
+
+}
+.tagline1{
+    color:#07ff5a;
+    font-size: 2em;
+    font-weight: bolder;
+
+}
+.tagline2{
+    color: #f5fc1b;
+}
+.mainarea{
+    margin-top: .75em;
+}
+.mainarea button{
+    width:20vw;
+    margin-top: 2em;
+    padding: .7em;
+    border-radius: 1em;
+    background-color: #A78295;
+    color: #EFE1D1;
+    border: 1px solid #A78295;
+}
