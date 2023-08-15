@@ -1,0 +1,20 @@
+{
+    "people" : 
+    [
+        {
+            
+            "name":"Sekar",
+            "age":21
+        },
+        {
+            "name":"sathya",
+            "age": 22
+
+        },
+        {
+            "name":"Mitharan",
+            "age":7
+        }
+    ]
+    
+}
